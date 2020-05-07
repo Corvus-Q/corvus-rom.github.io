@@ -114,13 +114,13 @@ a.white {
 	font: italic 400 1rem/1.5rem "Open Sans", sans-serif;
 }
 
-.testimonial-author {
+.team-member {
 	font: 700 1rem/1.5rem "Montserrat", sans-serif;
 }
 
 .btn-solid-reg {
 	display: inline-block;
-	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	padding: 0.2875rem 1.425rem 0.2875rem 1.425rem;
 	border: 0.125rem solid #f59b9e;
 	border-radius: 2rem;
 	background-color: #f59b9e;
@@ -836,7 +836,7 @@ input[type='checkbox'] {
 	padding-bottom: 0;
 }
 
-.slider-1 .testimonial-author {
+.slider-1 .team-member {
 	margin-bottom: 0;
 }
 
@@ -1136,7 +1136,6 @@ input[type='checkbox'] {
 	margin-top: 0.5rem;
 }
 
-
 /**********************************/
 /*     11. Details Lightboxes     */
 /**********************************/
@@ -1316,7 +1315,7 @@ input[type='checkbox'] {
 .counter #counter .counter-info {
 	margin-bottom: 0;
 	color: #f59b9e;
-	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
+	font: 300 0.875rem/1.25rem "Open Sans", sans-serif;
 	vertical-align: middle;
 }
 
@@ -1450,7 +1449,7 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background: linear-gradient(to bottom right, #2c1a7e, #5557db);
+	background: linear-gradient(to bottom right, #780626, #c72250);
 	text-align: center;
 }
 

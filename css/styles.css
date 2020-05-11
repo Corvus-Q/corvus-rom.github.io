@@ -130,6 +130,24 @@ a.white {
 	transition: all 0.2s;
 }
 
+.btn-solid-reg1 {
+	display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border: 0.125rem solid #019697;
+	border-radius: 2rem;
+	background-color: #019697;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-reg1:hover {
+	background-color: transparent;
+	color: #019697;
+	text-decoration: none;
+}
+
 .btn-solid-reg:hover {
 	background-color: transparent;
 	color: #019697;
@@ -155,6 +173,13 @@ a.white {
 }
 
 .btn-solid-lg .fab {
+	margin-right: 0.5rem;
+	font-size: 1.25rem;
+	line-height: 0;
+	vertical-align: top;
+}
+
+.btn-solid-lg .fas {
 	margin-right: 0.5rem;
 	font-size: 1.25rem;
 	line-height: 0;

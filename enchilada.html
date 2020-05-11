@@ -33,6 +33,13 @@
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
+	<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").load("enchilada.txt");
+  });
+});
+</script>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -170,8 +177,10 @@
 						<h5>Changelog<span class="blue">v4.7</span></h5>					
 							<li>Add missing aptX blob source header</li>
 							<li>Update to GCam_7.3.018_Urnyx05-v1.5</li>
-							<li>Add Tri-state UI overlays</li>									
-							<p></p>			
+							<li>Add Tri-state UI overlays</li>	
+							<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+							<button>Get External Content</button>							
+							
 						</p>	<br>					
 							<a class="btn-solid-reg" href="https://www.pling.com/p/1374627/"><i class="fa fa-2x fa-download"></i></a>&nbsp;
                             <a class="btn-solid-reg" href="https://t.me/CorvusEnchilada"><i class="fa fa-2x fa-telegram"></i></a>&nbsp;
